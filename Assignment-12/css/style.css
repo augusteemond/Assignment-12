@@ -1,0 +1,120 @@
+
+div{
+    text-align: left;
+    line-height: 1.45em;
+    font-family: Georgia, sans-serif;
+    margin-bottom: 11px;
+    padding: 6px;
+}
+h1, h3, h5{
+    text-align: center;
+    font-family: Times, sans-serif;
+
+}
+.opening-paragraph{
+    color: #1049;
+    font-size: 25px;
+    text-indent: 15px;
+    font-weight:650;
+}
+
+.opening-paragraph::first-line{
+    font-size: 40px;
+}
+.second-paragraph{
+    font-size: 17px;
+}
+
+#book_info{
+    text-decoration: none;
+    font-family: Times, sans-serif;
+}
+#book_info:hover{
+    font-family:  Times, sans-serif,
+    text-decoration: underline;
+    font-weight: 650;
+}
+
+table{
+    border: 1px solid black;
+    font-family:  Georgia, sans-serif;
+    font-weight: 650;
+}
+
+p{
+    font-family:  Times, sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: #26272b;
+    font-family: Georgia;
+    text-transform: uppercase;
+    margin-top: 0;
+    height: 3.5em;
+    width: 100%;
+    text-align: right;
+}
+
+.menu-item {
+    display: inline-block;
+    margin: 1em .2em;
+    min-width: 6em;
+    text-align: center;
+    background-color: #26272b;
+    padding: 0.5em 1em;
+}
+
+.menu-item a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu-item:hover {
+    background-color: brown;
+    text-decoration: underline;
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    border: 1px solid #000;
+    margin: 0.5em 0 0 -1em;
+    color: #000;
+    background-color: #bbb;
+    z-index: 1;
+}
+.dropdown-content a {
+    color: #000;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-item {
+    display: block;
+    text-align: left;
+    margin: 0;
+    padding: 0.5em 1em 0.5em 1em;
+    min-width: 5.9em;
+}
+
+.dropdown-item:hover, .dropdown-item:hover a {
+    color: black;
+    background-color: #a2a2a2;
+}
+
+.mainimage{
+    float: left;
+}
+
+.deathlyhallows{
+    float:right;
+}
